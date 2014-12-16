@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+This is the data to be entered into the news feed on hitting "refresh".
+1) username Bob, with userid @bob, says "Still waiting for a reply... What's the plan?"
+2) username Kurt, with userid @kvj, says "So it goes..."
+3) username Robbie, with userid @robot, says "Don't worry... found some."
+-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>MyTwitFaceSpace - Share your ramblings with the desensitized masses.</title>
+		<link type="text/css" rel="stylesheet" href="socialMedia.css"/>
+		<script type="text/javascript" src="socialMedia.js"></script>
+	</head>
+	<body onload="initialise();">
+			
+		<div id="mainpage">
+		
+			<div id="leftpanel">
+				<div id="navigate">
+					<div class="menu">
+						<div class="group">Friends</div>
+						<div class="item">Home</div>
+						<div class="item">Work</div>
+						<div class="item">Family</div>
+					</div>
+					<div class="menu">
+						<div class="group">Photos</div>
+						<div class="item">Albums</div>
+						<div class="item">Upload</div>
+					</div>
+					<div class="menu">
+						<div class="group">Settings</div>
+						<div class="item">General</div>
+						<div class="item">Privacy</div>
+					</div>
+				</div> <!-- id="navigate" -->
+			</div> <!-- id="leftpanel" -->
+				
+			<div id="banner"></div>
+				
+			<div id="friendspanel">
+
+				<div class="header">
+					Friends
+					<img id="friendrotate" src="images/robot.png"/>
+				</div>
+				<div id="friends">
+					<div class="friend">
+						<img class="userpic" src="images/robot.png" title="Robby" />
+						<span class="username">Robby</span>
+						<span class="userid">@robot</span>
+					</div>
+					<div class="friend">
+						<img class="userpic" src="images/kvj.png" title="Kurt" />
+						<span class="username">Kurt</span>
+						<span class="userid">@kvj</span>
+					</div>
+					<div class="friend">
+						<img class="userpic" src="images/cat.png" title="Katie" />
+						<span class="username">Katie</span>
+						<span class="userid">@cat</span>
+					</div>
+					<div class="friend">
+						<img class="userpic" src="images/bob.png" title="Bob" />
+						<span class="username">Bob</span>
+						<span class="userid">@bob</span>
+					</div>
+				</div>
+				
+			</div> <!-- id="friendspanel" -->
+			
+			<div id="msgpanel">
+			
+				<div class="header">
+					Messages <span id="refresh" class="fakelink">Refresh</span>
+				</div>
+				
+				<div class="msg">
+					<img class="userpic" src="images/bob.png" title="Bob" />
+					<span class="username">Bob</span>
+					<span class="userid">@bob</span>
+					<div class="msgtext">Any plans for tonight? Shall we go for dinner?</div>
+					<div class="msgactions">
+						<span class="fakelink">Like</span>
+						<span class="fakelink">Hide</span>
+						<span class="fakelink">Reply</span>
+					</div>
+				</div>
+				
+				<div class="msg">
+					<img class="userpic" src="images/cat.png" />
+					<span class="username">Katie</span>
+					<span class="userid">@cat</span>
+					<div class="msgtext">Thanks for the birthday present! Just what I always wanted...</div>
+					<div class="msgactions">
+						<span class="fakelink">Like</span>
+						<span class="fakelink">Hide</span>
+						<span class="fakelink">Reply</span>
+					</div>
+				</div>
+				
+				<div class="msg">
+					<img class="userpic" src="images/robot.png" />
+					<span class="username">Robbie</span>
+					<span class="userid">@robot</span>
+					<div class="msgtext">I'm running out of batteries. Anyone got any to spare?</div>
+					<div class="msgactions">
+						<span class="fakelink">Like</span>
+						<span class="fakelink">Hide</span>
+						<span class="fakelink">Reply</span>
+					</div>
+				</div>
+				
+			</div> <!-- id="msgpanel" -->
+			
+		</div> <!-- id="mainpage" -->
+	
+	</body>
+</html>
