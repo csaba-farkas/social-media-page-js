@@ -15,3 +15,5 @@ I didn't have to create a cross-browser solution, I tested the results in Firefo
 
 As this is my first repo I would really appreciate your opinion. Even a little advice would be great about how to write a good readme file. 
 
+NB: I changed the original name of the project.
+
