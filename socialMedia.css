@@ -1,0 +1,181 @@
+body {
+	font-family:arial;
+	font-size:0.9em;
+	background-color:#ffffe0;
+}
+
+div#leftpanel {
+	position:absolute;
+	left:-170px;
+	top:-1px;
+	width:150px;
+}
+
+div#latest {
+	background-color:#666666;
+	border-radius:5px;
+	border:solid 1px #444444;
+	padding:10px 0;
+}
+
+div#navigate {
+	background-color:#666666;
+	border-radius:5px;
+	border:solid 1px #444444;
+	padding:10px 0;
+}
+
+div#navigate div.group {
+	background-color:#aaaaaa;
+	border-top:solid 1px #444444;
+	padding:3px;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+}
+
+div#navigate div.group:hover {
+	color:#ffffff;
+}
+
+div#navigate div.item {
+	background-color:#cccccc;
+	border-top:solid 1px #444444;
+	padding:3px 3px 3px 10px;
+	color:#000000;
+	text-decoration:none;
+}
+
+div#navigate div.item:hover {
+	background-color:#dddddd;
+}
+
+div#mainpage {
+	margin:20px auto 0 auto;
+	width:700px;
+	min-height:1000px;
+	position:relative;
+	background-color:#abcdef;
+	border-radius:5px 5px 0 0;
+	border:solid 1px #444444;
+}
+
+div#banner {
+	width:100%;
+	height:30px;
+	background-color:#666666;
+	border-radius:4px 4px 0 0;
+	border-bottom:solid 1px #444444;
+}
+
+div#friendspanel {
+	width:160px;
+	position:absolute;
+	left:20px;
+	top:50px;
+}
+
+div#msgpanel {
+	margin:20px 20px 20px 200px;
+}
+
+div.header {
+	padding:5px;
+	background-color:#f5f5f5;
+	border:solid 1px #999999;
+	border-radius:5px 5px 0 0;
+	font-size:1.2em;
+	font-weight:bold;
+}
+
+.username {
+	color:grey;
+	font-weight:bold;
+}
+
+.userid {
+	color:#0000bb;
+	text-decoration:none;
+}
+
+img.userpic {
+	position:absolute;
+	left:10px;
+	top:10px;
+	width:30px;
+	height:30px;
+	border-radius:5px;
+}
+
+span#refresh {
+	float:right;
+	margin-top:0.4em;
+	margin-right:0.6em;
+	color:grey;
+	font-size:0.7em;
+	font-weight:normal;
+}
+
+img#friendrotate {
+	position:absolute;
+	right:10px;
+	top:7px;
+	width:20px;
+	height:20px;
+	border-radius:5px;
+}
+
+div#friends {
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:0 1px 1px 1px;
+	border-color:#999999;
+}
+
+div.friend {
+	position:relative;
+	min-height:30px;
+	padding:10px 10px 10px 50px;
+	border-top:dashed 1px #999999;
+}
+
+div.friend:first-child {
+	border-top-style:none;
+}
+
+div.friend .username {
+	display:block;
+}
+
+div.msg {
+	position:relative;
+	min-height:30px;
+	padding:10px 10px 10px 50px;
+	background-color:#ffffff;
+	border-style:solid;
+	border-width:0 1px 1px 1px;
+	border-color:#999999;
+}
+
+div.msgtext {
+	margin-top:0.4em;
+}
+
+div.msgactions {
+	margin-top:0.6em;
+	color:grey;
+	font-size:0.8em;
+}
+
+div.msgactions > span {
+	color:inherit;
+	margin-right:0.6em;
+}
+
+span.fakelink {
+	cursor:pointer;
+	text-decoration:none;
+}
+span.fakelink:hover{
+	text-decoration:underline;
+}		
