@@ -11,7 +11,7 @@ I'm a college student, studying computer science. This assignment was part of a 
 
 4. Clicking on the "Refresh" link in the top right-hand corner should display all the new messages at the top of the message list (prepend) with the user image/avatar for each message. The new messages for you to use are stored in “newsfeeddemodata.txt”.The new messages must be added to the DOM. In other words, hitting the Refresh button should create new “divs” (and other associated DOM elements) with content based on the text as provided.
 
-I didn't have to create a cross-browser solution, I tested the results in Firefox only.
+I didn't have to create a cross-browser solution, I tested the results only in Firefox.
 
 As this is my first repo I would really appreciate your opinion. Even a little advice would be great about how to write a good readme file. 
 
