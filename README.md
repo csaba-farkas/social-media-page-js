@@ -1,7 +1,7 @@
 socialMediaPage
 ===============
 
-I'm a college student, studying computer science. This assignment was part of a second year Web Development module. The HTML and the CSS files were provided, I had to write a JavaScript file to modify the page based on the following criteria:
+This assignment was part of a second year Web Development module. The HTML and the CSS files were provided, I had to write a JavaScript file to modify the page based on the following criteria:
 
 1. The indented, pale grey items (child menus) in the left-hand navigation menu ("Home", "Work", etc.) should initially be hidden, and only re-appear whilst the mouse pointer hovers over their parent item (shown in darker grey) in the menu.
 
@@ -13,7 +13,4 @@ I'm a college student, studying computer science. This assignment was part of a 
 
 I didn't have to create a cross-browser solution, I tested the results only in Firefox.
 
-As this is my first repo I would really appreciate your opinion. Even a little advice would be great about how to write a good readme file. 
-
-NB: I changed the original name of the project.
 
